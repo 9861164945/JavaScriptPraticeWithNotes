@@ -13,13 +13,27 @@ using script tag we use js in our html code.
 
 What is the diff btn primitive and non primitive
 
-primitive:types 7 category:String,Number,Boolean,null,undefined,Symbol,BigInt (Long Value,Scintfic value)
-Reference  types:array,Object,functions.  
+primitive:types 7 category:
+String,"string"
+Number,:89.89;
+Boolean,:true false
+null,:null
+undefined,:initialize but noit gin=ving the value
+Symbol,:@#$
+BigInt (Long Value,Scintfic value)
+Reference types:
+array:
+,Object
+,functions
+.  
 */
 const score=100;
-const scoreValue=100.3;
-const isLoggedIn=false;
-const outsideTemp=null;
+typeof(score);
+
+//integer in java int n=10;
+const scoreValue=100.3;//float
+const isLoggedIn=false;//boolean
+const outsideTemp=null;//null
 let userEmail;
 const id=Symbol('123');
 const anotherId=Symbol('123');
@@ -43,3 +57,10 @@ const heros=["Shaktiman","nagraj","doga"];
  console.log(typeof score);
  console.log(typeof obj1);
  console.log(typeof userEmail);
+
+  function f1()
+  {
+   const f2=12;// can nit be re initialize/not changable /block scope;
+   let n2=90.9;// can reinitialize /Changebale/block scope;
+
+  }
